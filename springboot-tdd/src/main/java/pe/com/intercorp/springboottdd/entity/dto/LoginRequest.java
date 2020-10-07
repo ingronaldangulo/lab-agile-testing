@@ -1,5 +1,4 @@
-package pe.com.intercorp.springboottdd.entity;
-
+package pe.com.intercorp.springboottdd.entity.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,8 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Country {
+public class LoginRequest {
     private long id;
-    private String code;
-    private String name;
+    private String username;
+    private  String password;
 }
